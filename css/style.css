@@ -24,16 +24,16 @@
     }
 }
 .navbar{
-    width: 85%;
+    width: 95%;
     margin: auto;
-    padding: 35px 0;
+    padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .logo{
-    width: 120px;
+    width: 50px;
 }
 
 .navbar li{
