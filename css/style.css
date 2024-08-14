@@ -51,12 +51,17 @@
 }
 
 .content{
-    width: 100%;
-    position: absolute;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 30px 40px;
+    border-radius: 10px;
+    margin: 0 32%;
+    width: 450px;
+    position: absolute; 
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: #fff;
 }
 
 .content h1{
@@ -70,8 +75,13 @@
 }
 
 .about{
-    width: 80%;
-    margin: auto;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 30px 40px;
+    border-radius: 10px;
+    margin: 0 32%;
+    width: 450px;
     transform: translateY(140%);
     text-align: center;
     padding-top: 100px;
@@ -93,29 +103,45 @@ p{
 }
 
 .services{
-    width: 80%;
-    margin: auto;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 30px 40px;
+    border-radius: 10px;
+    margin: 0 32%;
+    margin-top: 10%;
+    width: 450px;
     transform: translateY(30%);
     text-align: center;
     padding-top: 100px;
 }
 
 img{
-    width: 500px;
+    width: 400px;
 }
 
 .work{
-    width: 80%;
-    margin: auto;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 30px 40px;
+    border-radius: 10px;
+    margin: -30% 32%;
+    width: 450px;
     transform: translateY(30%);
     text-align: center;
     padding-top: 100px;
 }
 
 .contact{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 30px 40px;
+    border-radius: 10px;
+    margin: 0 32%;
+    width: 450px;
     color: white;
-    width: 80%;
-    margin: auto;
     transform: translateY(390%);
     text-align: center;
     padding-top: 100px;
