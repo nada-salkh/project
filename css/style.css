@@ -132,3 +132,7 @@ img{
     text-decoration: none;
     color: #fff;
 }
+
+.contact img{
+     width: 15px;
+}
